@@ -10,6 +10,8 @@ import Toolbar from './Toolbar.js';
 import Main from './Main.js';
 import Date from './Date.js';
 
+//import cookie from 'react-cookie';
+
 localizer(globalize);
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -19,7 +21,6 @@ injectTapEventPlugin();
 import './styles/calendar-styles.less';
 import './styles/styles.less';
 import './styles/prism.less';
-
 
 const Example = React.createClass({
 
