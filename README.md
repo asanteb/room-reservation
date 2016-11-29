@@ -9,3 +9,13 @@
 ## Purpose
 Purpose of the site is to create a site to manage room meetings created by faculty and staff members of the university
 
+## Setup
+```
+npm install
+npm start // for development sessions
+npm build // for production building
+```
+
+## Other libraries used
+webpack for transpilling
+localtunnel for public node servers
